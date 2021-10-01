@@ -1,0 +1,3 @@
+Copy and paste the black boxes to notepad, convert the decimals to text
+
+Flag : TamilCTF{1_l0v3_bb44tt_man}

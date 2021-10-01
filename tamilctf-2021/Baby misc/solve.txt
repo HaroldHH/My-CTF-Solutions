@@ -1,0 +1,10 @@
+Check each file which contains base64
+
+VGFtaWxDVEYK
+e1IzdjNyU0VyCg
+X21BazNfQQo=
+TTFzQ30K
+
+encode it one by one become
+
+TamilCTF{R3v3rSEr_mAk3_AM1sC}

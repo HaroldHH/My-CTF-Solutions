@@ -1,0 +1,8 @@
+>> exiftool pexels_beta.jpg
+
+Author                          : TamilCTF{flag_here} (not a flag)
+Comment                         : 8,5,7,3,4,6
+
+-> Find words with the specified length of characters in comment
+
+TamilCTF{You_cant_GET!ME_THISForEver007700}
