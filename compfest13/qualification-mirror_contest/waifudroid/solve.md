@@ -9,4 +9,3 @@ If we made it nested like 'gimme gimme secretsecret', the result will be the sam
 When I look into the detail, there are double-quotes inside single quote, Then **gimme"+" secret** will be truncated as "gimme secret" inside the vm class and sanitize() won't strip the string.\
 \
 ![pic1](pic1.png)
-\

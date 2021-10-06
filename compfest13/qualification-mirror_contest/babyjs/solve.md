@@ -29,6 +29,6 @@ Then, The flag could be retrieved by using spawnSync() to 'cat' index.js file.\
 
 ## References
 
-* [Referensi 1](https://pwnisher.gitlab.io/nodejs/sandbox/2019/02/21/sandboxing-nodejs-is-hard.html)
-* [Referensi 2](https://licenciaparahackear.github.io/en/posts/bypassing-a-restrictive-js-sandbox/)
-* [Referensi 3](https://www.tabnine.com/code/javascript/functions/spawnSync)
+* [Reference 1](https://pwnisher.gitlab.io/nodejs/sandbox/2019/02/21/sandboxing-nodejs-is-hard.html)
+* [Reference 2](https://licenciaparahackear.github.io/en/posts/bypassing-a-restrictive-js-sandbox/)
+* [Reference 3](https://www.tabnine.com/code/javascript/functions/spawnSync)
