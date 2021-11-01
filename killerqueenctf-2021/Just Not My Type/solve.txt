@@ -1,0 +1,3 @@
+HTTP body payload : password[]=test
+
+Flag : flag{no_way!_i_took_the_flag_out_of_the_source_before_giving_it_to_you_how_is_this_possible}

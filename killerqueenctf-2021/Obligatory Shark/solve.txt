@@ -1,0 +1,5 @@
+Hash : MD5
+
+Password : dancingqueen
+
+Flag : kqctf{dancingqueen}

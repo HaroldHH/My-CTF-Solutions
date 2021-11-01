@@ -1,0 +1,16 @@
+# The logic of the python dis
+>>> f = ""
+>>> a = "rwhxi}eomr\\^`Y"
+>>> z = "f]XdThbQd^TYL&\x13g"
+>>> a = a + z
+>>> a
+'rwhxi}eomr\\^`Yf]XdThbQd^TYL&\x13g'
+>>> for i,b in enumerate(a):
+...     c = ord(b)
+...     c = c - 7
+...     c = c + i
+...     c = chr(c)
+...     f += c
+>>> print(f)
+
+# Flag : kqctf{dont_be_mean_to_snek_:(}
