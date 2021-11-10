@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+#
+# NOTE : THIS CODE WAS TAKEN FROM https://stacklikemind.io/ret2libc-aslr AND MODIFIED FOR THE PURPOSE TO SOLVE THE CHALLENGE EASILY.
+#        IT'S RECOMMENDED TO READ THE ARTICLE!.
+#
+
 from pwn import *
 from struct import pack
 

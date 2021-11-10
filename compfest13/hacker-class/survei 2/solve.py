@@ -1,14 +1,15 @@
-import struct
+import sys, struct
 from pwn import *
 
 # Flag : COMPFEST13{N0wY0U_knoW_heapOv3rflow}
 
 idx_last = 48
 
-#elf = ELF("./survei")
-#prog = elf.process()
-
-prog = remote('103.152.242.242', 30148)
+if sys.argv[1] == "local":
+	elf = ELF("./survei")
+	prog = elf.process()
+else:
+	prog = remote('103.152.242.242', 30148)
 
 # Isi survei
 print(prog.recv().decode())
